@@ -32,14 +32,14 @@ class App extends React.Component {
       // top level information for each page
       home: {
         imgSrc: logo,
-        subTitle: 'Embracing challenges to work towards tomorrow\'s solutions',
-        text: 'To learn more click on my projects below:'
+        subTitle: 'The first step in crafting a life you want is to get rid of everything you don\'t.',
+        text: '- Joshua Becker'
       },
       about: {
-        title: 'About Me'
+        title: 'About Me.'
       },
       faq: {
-        title: 'Common Questions'
+        title: 'Common Questions.'
       },
       contact: {
       title: 'Hello.',

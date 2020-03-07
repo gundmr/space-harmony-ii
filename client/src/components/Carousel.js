@@ -7,9 +7,10 @@ import Row from 'react-bootstrap/Row';
 import Card from '../components/Card';
 
 // IMAGES
-import OVW from '../assets/images/OVW.jpg';
-import movie from '../assets/images/movie.jpg';
-import car from '../assets/images/car.jpg';
+import beforeAfter from '../assets/images/ba-1.jpg';
+import beforeAfter2 from '../assets/images/ba-2.jpg';
+import oranization from '../assets/images/org-img.jpg';
+import oranization2 from '../assets/images/org-img-2.jpg';
 
 
 class Carousel extends React.Component {
@@ -20,26 +21,26 @@ class Carousel extends React.Component {
             items:[
                 {
                     id: 0,
-                    title: 'Fuze',
-                    subTitle: 'Team constructor application for Overwatch',
-                    imgSrc: OVW,
-                    link: 'https://fuzeteam.herokuapp.com/signin',
+                    subTitle: 'Live With What You Love',
+                    imgSrc: oranization,
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Space & Harmony',
-                    subTitle: 'Consultaiton Website built with SASS',
-                    imgSrc: movie,
-                    link: 'https://space-and-harmony.netlify.com/',
+                    subTitle: 'Find Your Cherished Items',
+                    imgSrc: beforeAfter,
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'EBetz',
-                    subTitle: 'Stream and bet on esports',
-                    imgSrc: car,
-                    link: 'https://ebetz.herokuapp.com/',
+                    subTitle: 'Tidy Your Work Space',
+                    imgSrc: oranization2,
+                    selected: false
+                },
+                {
+                    id: 3,
+                    subTitle: 'Kitchen and Closet Organization Available',
+                    imgSrc: beforeAfter2,
                     selected: false
                 },
             ]

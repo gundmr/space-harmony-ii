@@ -10,11 +10,24 @@ function FAQPage(props) {
             <Hero title={props.title}/>
 
             <Content>
-                    <p>Hello, my name is Rachel. I'm a full stack engineer leveraging a background in Business Intelligence Analytics to build a more intuitive user experience on the web. </p>
-
-                    <p>I'm driven by working on products that delight users, solves complex customer problems with simple solutions, while driving significant business outcomes.</p>
-
-                    <p>While my experience is with MongoDB, JavaScript, React.js and Node.js, I am always striving to learn new things. </p>
+                    <p><strong>How long does the process take?</strong> </p>
+                    <p>
+                    Each project will vary based on the amount of items and the person going through the process. The minimum suggestion is 3 hours per session.</p>
+                    
+                    <p><strong>What is the KonMari Method™?</strong> </p>
+                    <p>
+                        The KonMari Method is about choosing joy. By going through the items in your house and taking the time to truly evaluate the life you want. By choosing to keep only the items that bring you joy and about finding joy in the items the service a purpose .
+                    </p>
+                    
+                    <p><strong>Does the entire family need to be part of the decluttering process?</strong> </p>
+                    <p>
+                        This is an individual journey  since only the individual truly know what brings them joy. The family can be there for an explanation of the process to understand better what will be going on.
+                    </p>
+                    
+                    <p><strong>Will I need to spend extra money on supplies?</strong> </p>
+                    <p>
+                        This is dependent on the individual and what they have already. If the individual is looking for a update/ more streamline look they might consider buying storage that has a more cohesive look  or more efficient storage solutions.
+                    </p>
                     
                 
             </Content>
