@@ -14,6 +14,7 @@ import ContactPage from './pages/ContactPage';
 
 // IMAGES
 import logo from '../src/assets/images/logo-1.png';
+import sideImage from '../src/assets/images/favicon-2.png';
 
 class App extends React.Component {
 
@@ -55,7 +56,9 @@ class App extends React.Component {
 
 {/* NAV BAR DETAILS */}
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Space & Harmony</Navbar.Brand>
+            <Navbar.Brand>
+            <img src={ sideImage } alt="profile" width="10%" class="sideImage"/>
+            </Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
